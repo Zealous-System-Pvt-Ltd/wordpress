@@ -1,0 +1,39 @@
+/* Team Listing */
+.team-block .single-wrapper .membber-image, .team-block .single-wrapper .back-gif{max-height: 330px}
+.team-block .single-wrapper {padding-bottom: 95%;position: relative;width: 100%;}
+.et_pb_team_member_description{margin-top:0}
+
+
+/* SINGLE TEAM*/
+.singleteam #left-area{padding-right: 0;width: 100%;}
+
+/*** Take out the divider line between content and sidebar ***/
+.single-our-team #main-content .container:before{background: none;}
+
+.single-our-team .et_pb_row{width:100%;}
+.single-our-team .post-meta{display:none;}
+.single-our-team .et_pb_post .entry-content{padding-top:0;}
+.single-our-team .back-team{margin-bottom: 40px;}
+.back-team a {font-weight: 500;position: relative;text-transform:uppercase;-webkit-transition: all .25s ease;transition: all .25s ease;margin-left: 0;}
+.back-team a:after {position: absolute;content: "";background: #000;height: 2px;width: 100%;left: 0;right: 0;bottom: -5px;margin:auto;transition: all .2s ease;-webkit-transition: all .25s ease;}
+.back-team a:hover:after{width: 50%;}
+
+.single-our-team .entry-title {font-family: Open Sans !important;font-size: 34px;color: #000 !important;font-weight: 800 !important;line-height: 45px !important;text-align: left;}
+.single-our-team .team-d{margin-bottom:50px;font-family: Roboto !important;}
+.single-our-team .degree{font-size:15px;color:rgba(0,0,0,1);font-family: Roboto !important;}
+.single-our-team .designation{font-size:15px;color:rgba(0,0,0,1);margin-bottom: 15px;font-family: Roboto !important;}
+.single-our-team .email{color:#000;font-size:17px;text-decoration:underline;margin-bottom: 15px;font-weight: 500;font-family: Roboto !important;}
+.single-our-team .email a{color:#000;font-size:17px;text-decoration:underline;font-family: Roboto !important;}
+.single-our-team .profile_wrap.fixed{position:fixed;top:0;padding-top:95px;}
+.single-our-team .profile_wrap.bottom{position:absolute;bottom:0;padding-top:95px;}
+
+.single-our-team .entry-content p{font-family: Roboto !important;font-size: 18px;color: #000;line-height: 30px;font-weight: normal !important;}
+
+@media (min-width: 981px){
+	.single-our-team.et_pb_gutters3 .et_pb_column_2_5, .single-our-team.et_pb_gutters3.et_pb_row .et_pb_column_2_5 {width: 36.7%;}
+	.single-our-team.et_pb_gutters3 .et_pb_column_3_5, .single-our-team.et_pb_gutters3.et_pb_row .et_pb_column_3_5 {width: 57.8%;}
+}
+
+@media (max-width: 768px){
+	.single-our-team .container { width:100%;}
+}
